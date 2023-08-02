@@ -1,0 +1,55 @@
+header {
+    background: aqua;
+    width:calc(100% - 60px); height:100px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row no-wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1 {
+    width: 213px;         
+}
+header h1 a {}
+header h1 a img {width:100%;}
+header .right {
+    display: flex;
+    align-items: center;
+    }
+header .right > * {margin-left: 20px;}
+header .right .lang {
+    font-size: 1.333rem;
+    margin-left: 0;
+
+}
+header .right #searcgFrm {
+    width:346px; border-radius: 5px;
+    background-color: #B8BDEC;
+    margin-right: 20px;
+}
+header .right #searcgFrm fieldset {
+    display: flex; height:42px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+header .right #searcgFrm fieldset #txt {
+    background-color: #B8BDEC;
+    color: #fff;
+    padding-left: 10px;
+    
+}
+header .right #searcgFrm fieldset #txt::placeholder {color:#fff;}
+header .right #searcgFrm fieldset #searchBtn {
+    background: none;
+    width: 24px; height:24px; margin-right: 10px;}
+header .right #searcgFrm fieldset #searchBtn img {width: 100%;}
+header .right #login, header .right #cart, header .right #nav {width:30px; height:33px; margin-right: 20px;}
+header .right #login {}
+header .right #login img {width: 100%;}
+header .right #cart {}
+header .right #cart img {width: 100%;}
+header .right #nav {margin-right: 0px;}
+header .right #nav img {width: 100%;}
