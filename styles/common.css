@@ -22,34 +22,33 @@ header .right .lang {
     margin-left: 0;
 
 }
-header .right #searcgFrm {
+header .right #searchFrm {
     width:346px; border-radius: 5px;
     background-color: #B8BDEC;
     margin-right: 20px;
 }
-header .right #searcgFrm fieldset {
+header .right #searchFrm fieldset {
     display: flex; height:42px;
-    flex-flow: row nowrap;
     justify-content: space-between;
-    align-items: center;
-    
-    
+    align-items: center; 
 }
-header .right #searcgFrm fieldset #txt {
-    background-color: #B8BDEC;
+header .right #searchFrm fieldset #searchTxt {
+    background: none;
     color: #fff;
     padding-left: 10px;
-    
 }
-header .right #searcgFrm fieldset #txt::placeholder {color:#fff;}
-header .right #searcgFrm fieldset #searchBtn {
+header .right #searchFrm fieldset #searchTxt::placeholder {color:#fff;}
+header .right #searchFrm fieldset #searchBtn {
     background: none;
     width: 24px; height:24px; margin-right: 10px;}
-header .right #searcgFrm fieldset #searchBtn img {width: 100%;}
-header .right #login, header .right #cart, header .right #nav {width:30px; height:33px; margin-right: 20px;}
+header .right #searchFrm fieldset #searchBtn img {width: 100%;}
+header .right #login, header .right #cart, header .right #nav {
+    width: 30px; height:33px;
+}
+header .right #login img, header .right #cart img, header .right #nav img {width:100%;}
 header .right #login {}
-header .right #login img {width: 100%;}
+header .right #login img {}
 header .right #cart {}
-header .right #cart img {width: 100%;}
-header .right #nav {margin-right: 0px;}
-header .right #nav img {width: 100%;}
+header .right #cart img {}
+header .right #nav {}
+header .right #nav img {}
