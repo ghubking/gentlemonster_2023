@@ -28,7 +28,7 @@ header .right #searcgFrm {
     margin-right: 20px;
 }
 header .right #searcgFrm fieldset {
-    display: flex; height:42px;
+    display: flex; height:;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
@@ -43,13 +43,12 @@ header .right #searcgFrm fieldset #txt {
 }
 header .right #searcgFrm fieldset #txt::placeholder {color:#fff;}
 header .right #searcgFrm fieldset #searchBtn {
-    background: none;
+    background-color: #B8BDEC;
     width: 24px; height:24px; margin-right: 10px;}
 header .right #searcgFrm fieldset #searchBtn img {width: 100%;}
-header .right #login, header .right #cart, header .right #nav {width:30px; height:33px; margin-right: 20px;}
-header .right #login {}
-header .right #login img {width: 100%;}
-header .right #cart {}
-header .right #cart img {width: 100%;}
-header .right #nav {margin-right: 0px;}
-header .right #nav img {width: 100%;}
+header .right #login {margin-right: 20px;}
+header .right #login img {}
+header .right #cart {margin-right: 20px}
+header .right #cart img {}
+header .right #nav {margin-right: 0px}
+header .right #nav img {}
