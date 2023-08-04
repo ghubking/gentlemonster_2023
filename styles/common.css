@@ -81,7 +81,7 @@ header #open_nav #nav_close {
     width:40px; height:40px;
     position: absolute;
     top:111px; right:107px;
-    
+    z-index: 999; /* 닫기 버튼은 포지션 앱솔루트를 썼기때문에 다른 항목과 겹쳐서 안눌러질경우 대비 */
     
 }
 header #open_nav #nav-close img {
