@@ -1,0 +1,92 @@
+/* main */
+main {}
+/* main -1. visual */
+main .visual {
+    height:100vh;
+    position: relative; overflow: hidden;
+}
+main .visual .txt {
+    background: #fff;
+    opacity: 0.5;
+    position: absolute; 
+    width: 100%; top:40%;
+    text-align: center; z-index: 900;
+}
+main .visual .txt p {
+    color: #000;
+    font-size: 2.36rem;
+    letter-spacing: -0.02rem;
+    margin-bottom: 20px;
+}
+main .visual .txt h1 {
+    color:#000;
+    font-size: 3.157rem;  font-weight: 700;
+    letter-spacing: -0.02rem;
+    margin-bottom: 20px;
+}
+main .visual .txt .link {
+    width:610px; height:70px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+main .visual .txt .link a {
+    width:300px; height:50px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.77rem;
+    padding-top: 8px;
+    color: #000;
+    transition: all 1s ;
+}
+main .visual .txt .link a:hover {
+    background-color: #5F0380;
+    color:#fff; opacity: 1;
+    border: 2px solid #fff;
+    
+}
+main .visual video {
+    width:100%;
+    /* 화면크기 조정 시 비디오 중심축 맞추기 */
+    /* 필수조건 - 비디오의 부모가 vh or px 높이설정 되있어야 함 */
+    position: absolute; left:50%;
+    transform: translateX(-50%);
+    /* width: 1920px;   방법3 절대크기 값 */
+    /* height:100%; */
+}
+/* 와이드 비율의 video 화면 전체 배치 시 여백해결법 */
+/* 1. 반응형웹 @media 특정해상도마다 비디오의 크기 설정값 변경 */
+/* 2. 가장 큰 데스크탑 기준으로 너비를 100% 보다 크게 설정하고 넘치게 하는 방법 */
+/* 3. 상대크기가 아닌 절대크기값(px) 크기를 설정해서 화면해상도에 영향을 받지 않는 방법 */
+/* main -2. bnr */
+main .adver_bnr {
+    height:300px;
+    background: url(../images/bnr.jpg) no-repeat center;
+}
+main .adver_bnr .txt {
+    padding:52px 0 0 34px;
+    margin-bottom: 10px;
+}
+main .adver_bnr .txt p {
+    font-size: 2.36rem;
+}
+main .adver_bnr .txt h1 {
+    font-size: 3.157rem;
+    font-weight: 700;}
+main .adver_bnr .txt .link {
+    width:330px; height:50px;
+    margin-top: 25px;
+}
+main .adver_bnr .txt .link a{
+    width:160px; height:50px;
+    border: 1px solid #000;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.77rem;
+
+    }
