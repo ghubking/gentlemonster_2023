@@ -42,7 +42,7 @@ main .visual .txt .link a {
     font-size: 1.77rem;
     padding-top: 8px;
     color: #000;
-    transition: all 1s ;
+    transition: all 1s linear;
 }
 main .visual .txt .link a:hover {
     background-color: #5F0380;
@@ -69,7 +69,10 @@ main .adver_bnr {
     background: url(../images/bnr.jpg) no-repeat center;
 }
 main .adver_bnr .txt {
-    padding:52px 0 0 34px;
+    /* contents width px */
+    max-width: 1200px; margin: 0 auto;
+    
+    padding:75px 0 0 34px;
     margin-bottom: 10px;
 }
 main .adver_bnr .txt p {
@@ -79,14 +82,111 @@ main .adver_bnr .txt h1 {
     font-size: 3.157rem;
     font-weight: 700;}
 main .adver_bnr .txt .link {
+    
     width:330px; height:50px;
-    margin-top: 25px;
+    margin: 25px 0 25px 0;
+    
+    
 }
 main .adver_bnr .txt .link a{
-    width:160px; height:50px;
-    border: 1px solid #000;
-    border-radius: 15px;
+    width:160px; height:40px;
+    padding: 8px 0 10px 0;
+    margin-bottom: 20px;
+    display: inline-block;
     text-align: center;
-    font-size: 1.77rem;
+    border: 1px solid #000;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    transition: all 1s linear;
+    }
+    main .adver_bnr .txt .link a:hover {
+        background-color: #5F0380;
+        color:#fff; opacity: 1;
+        border: 2px solid #fff;
+    }
+    /* main 3. service */
+    main #online_service {
+        background: url(../images/service_bg1.jpg) no-repeat;
+        background-position: right top 20px;
+        background-size: 70%;
+        padding-top:60px; margin-top: 102px;
+                
+    }
+    main #online_service .txt {
+        width:847px;
+        margin-top: 56px;
+        padding: 26px 0 0 147px;
+        background: #fff;
 
+    }
+    main #online_service .txt h1 {
+        font-size: 3.157rem;
+        font-weight: 700;
+        margin: 26px 0 0 0px;
+    }
+    main #online_service .txt p {
+        font-size: 1.3rem;
+        margin: 10px 50px 10px 0px;
+        line-height: 35px;
+    }
+    main #online_service .txt .service_link {
+        width:160px; height:40px;
+        padding: 8px 0 10px 0;
+        margin-bottom: 20px;
+        display: inline-block;
+        text-align: center;
+        border: 1px solid #000;
+        border-radius: 20px;
+        font-size: 1.3rem;
+        transition: all 1s linear;
+    }
+    main #online_service .txt .service_link:hover {
+        background-color: #5F0380;
+        color:#fff; opacity: 1;
+        border: 2px solid #fff;
+        
+    }
+
+    main #shop_service {
+        background: url(../images/service_bg2.jpg) no-repeat;
+        background-position: left top 20px;
+        background-size: 70%;
+        padding-top: 60px;
+        margin-top: 102px;
+        display: flex; flex-flow: row-reverse;
+        
+    }
+    main #shop_service .txt {
+        text-align: right;
+        background:#fff;
+        padding: 26px 0 46px 50px;
+        margin: 56px 155px 0 50px;
+        width:847px;
+        
+    }
+    main #shop_service .txt h1 {
+        font-size: 3.157rem;
+        font-weight: 700;
+        margin: 26px 0 0 0px;
+    }
+    main #shop_service .txt p {
+        font-size: 1.3rem;
+        margin: 10px 0 10px 0px;
+        line-height: 35px;
+    }
+    main #shop_service .txt .store_link {
+        width:160px; height:40px;
+        padding: 8px 0 10px 0;
+        margin-bottom: 20px;
+        display: inline-block;
+        text-align: center;
+        border: 1px solid #000;
+        border-radius: 20px;
+        font-size: 1.3rem;
+        transition: all 1s linear;
+    }
+    main #shop_service .txt .store_link:hover {
+        background-color: #5F0380;
+        color:#fff; opacity: 1;
+        border: 2px solid #fff;
     }
