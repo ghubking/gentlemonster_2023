@@ -126,3 +126,50 @@ header #open_nav nav a:hover {
     color:#B8BDEC; border-bottom: 1px solid #B8BDEC;
     
 }
+/* footer */
+footer {width:calc(100% - 60px); margin: 0 auto;}
+footer .f_menu {
+    display: flex;
+    padding:20px 0 40px;
+    
+}
+footer .f_menu dl {margin-right: 50px;
+    
+}
+footer .f_menu .service dt {
+    font-size: 1.333rem; 
+    margin: 0px 130px 30px 0;}
+footer .f_menu .service dd {
+    margin-bottom: 10px;
+}
+footer .f_menu .service dd a {}
+footer .f_menu .law {}
+footer .f_menu .law dt {font-size: 1.333rem; 
+    margin: 0px 130px 30px 0;}
+footer .f_menu .law dd {
+    margin-bottom: 10px;
+}
+footer .f_menu .law dd a {}
+footer .f_menu .sns {}
+footer .f_menu .sns dt {font-size: 1.333rem; 
+    margin: 0px 130px 30px 0;}
+footer .f_menu .sns dd {
+    margin-bottom: 10px;
+}
+footer .f_menu .sns dd a {}
+footer .f_copy {
+    display: flex;
+}
+footer .f_copy p {}
+footer .f_copy p img {width: 210px; }
+footer .f_copy address {
+    padding : 0px 0px 10px 138px;
+    line-height: 30px;
+    
+}
+footer .f_copy address a:nth-child(2) {
+    border-bottom: 1px solid#000;
+}
+footer .f_copy address a:last-child {
+    border-bottom: 1px solid#000;
+}
