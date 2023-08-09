@@ -1,0 +1,94 @@
+/* 반응형 웹
+@media screen and (max-width:500px) {
+    main .login {width:100% - 60px;}
+} */
+    
+main {
+    width:calc(100% - 60px);
+}
+main .login {
+    width:500px;
+    margin:0 auto;
+}
+main .login h1 {
+    font-size: 2.3rem;
+    margin-top: 91px;
+}
+main .login #login_box {}
+main .login #login_box fieldset {}
+main .login #login_box fieldset p {}
+main .login #login_box fieldset p .id {
+    width: 500px;
+    margin-top: 43px; height:72px;
+    border:1px solid#aaa;
+    font-size:1.33rem;
+    padding-left: 25px;
+}
+main .login #login_box fieldset p .pw {
+    width: 500px;
+    margin-top: 26px; height:72px;
+    border:1px solid#aaa;
+    font-size:1.33rem;
+    padding-left: 25px;
+}
+/* main .login #login_box fieldset p .pw:hover {
+    border:2px solid#000;
+    border-radius: 5px;
+} */
+main .login #login_box .login_middle {
+    margin:20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .login #login_box .login_middle .left {}
+main .login #login_box .login_middle .left #check {
+    margin-right: 5px;
+    width: 20px; height:20px;
+}
+main .login #login_box .login_middle .left label {
+    font-size: 1.33rem;
+}
+main .login #login_box .login_middle .right {}
+main .login #login_box .login_middle .right span {}
+main .login #login_box .login_middle .right span a {font-size: 1.33rem;line-height: 21px;}
+main .login #login_box .login_btn {
+    text-align: center; display: block;
+    width: 500px; height:72px;
+    background-color: #f16464;
+}
+main .login #login_box .login_btn h2 {
+    padding-top: 19px;
+    font-size: 1.77rem; color:#fff;
+}
+main .login #login_box .login_bottom {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin: 40px 0 ;
+}
+main .login #login_box .login_bottom p {
+    display: flex; 
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+main .login #login_box .login_bottom p:last-child {margin-right: 0;}
+main .login #login_box .login_bottom p a {
+    width:120px; height:90px;
+    text-align: center;
+}
+main .login #login_box .login_bottom p a img {
+    font-size: 1.33rem; 
+    display: block; margin: 0 auto;
+    width: 60px; height: 60px;
+    margin-bottom: 5px;
+}
+main .login #login_box > p {
+    text-align: center;
+    font-size: 1.33rem;
+    border-top: 1px solid#c5c5c5;
+    padding-top: 20px;
+}
+main .login #login_box > p a {font-size: 1.33rem;}

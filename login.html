@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>LOGIN | GENTLEMONSTER</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/login.css">
+</head>
+<body>
+    <!-- header -->
+    <main>
+        <div class="login">
+            <h1>로그인</h1>
+            <form action="#" id="login_box" method="post">
+                <fieldset>
+                    <legend class="skip">로그인양식</legend>
+                    <p><input class="id" type="text" placeholder="아이디"></p>
+                    <p><input class="pw" type="password" placeholder="비밀번호"></p>
+                </fieldset>
+                <div class="login_middle">
+                    <div class="left">
+                        <input type="checkbox" id="check">
+                        <label for="check">아이디 저장</label>
+                    </div>
+                    <div class="right">
+                        <span><a href="#">아이디 찾기 |</a></span>
+                        <span><a href="#">비밀번호 찾기 |</a></span>
+                        <span><a href="#">회원가입</a></span>
+                    </div>
+                </div>
+                <a href="#" class="login_btn"><h2>로그인</h2></a>
+                <div class="login_bottom">
+                    <p><a href="#"><img src="./images/icon_naver.png" alt="">네이버 로그인</a></p>
+                    <p><a href="#"><img src="./images/icon_kakao.png" alt="">카카오 로그인</a></p>
+                    <p><a href="#"><img src="./images/icon_apple.png" alt="">애플 로그인</a></p>
+                </div>
+                <p><a href="#">비회원 조회하기</a></p>
+            </form>      
+        </div>
+    </main>
+
+    <!-- footer -->
+    <script>
+        const id_box = document.querySelector('p .id')
+        const pw_box = document.querySelector('p .pw')
+        console.log(id_box, pw_box)
+        id_box.addEventListener('click',function(){
+            id_box.style.border = '2px solid#000'
+            id_box.style.borderRadius = '5px'
+            pw_box.style.border = '1px solid#aaa'
+            pw_box.style.borderRadius = '0px'
+        })
+        pw_box.addEventListener('click',function(){
+            pw_box.style.border = '2px solid#000'
+            pw_box.style.borderRadius = '5px'
+            id_box.style.border = '1px solid#aaa'
+            id_box.style.borderRadius = '0px'
+        })
+    </script>
+</body>
+</html>
