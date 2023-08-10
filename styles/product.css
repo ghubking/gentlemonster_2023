@@ -1,0 +1,86 @@
+main {    
+}
+/* 2. category */
+main #category {
+    width:1350px; margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main #category a {
+    width:170px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+main #category a img {border-radius: 50%; width: 100%;}
+main #category a:hover img {
+    filter:brightness(105%);
+}
+main #category a:hover span {color:#aaa}
+main #category a:last-child {margin-right: 0;}
+main #category a span {
+    margin-top: 18px; font-size: 1.25rem;
+}
+/* 3. product_list */
+main #product_list {padding: 100px 0 0 ;}
+main #product_list .title {width: calc(100% - 60px); margin: 0 auto;}
+main #product_list .title .top {
+    padding: 30px 0;
+    border-bottom:1px solid #222;
+    display: flex;
+    justify-content: space-between;
+}
+main #product_list .title .top h1 {font-size: 2.5rem;font-weight: 700;}
+main #product_list .title .top .filter {}
+main #product_list .title .top .filter a {margin-right: 28px;}
+main #product_list .title .top .filter a:last-child {margin-right: 0;}
+main #product_list .title .btm {
+    padding: 34px 0 85px;
+    display: flex;
+    justify-content: space-between;
+}
+main #product_list .title .btm p {font-size: 1.25rem;}
+main #product_list .title .btm p em {font-size: 1.25rem;font-weight: 700;}
+main #product_list .title .btm #product_align {font-size: 1.25rem;}
+main #product_list .title .btm #product_align option {}
+
+
+main #product_list .container {
+    width: calc(100% - 60px); margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main #product_list .container .item {margin-bottom:50px;width:278px; display:flex; flex-flow:column nowrap;}
+main #product_list .container .item1 {}
+main #product_list .container .item .box {
+    position:relative;
+}
+main #product_list .container .item .box .item_img {}
+main #product_list .container .item .box .item_img img {width:100%;}
+main #product_list .container .item .box .like_img {position:absolute; right:20px; top:20px; z-index:800;}
+main #product_list .container .item .box .like_img img {width:24px;}
+main #product_list .container .item .txt {}
+main #product_list .container .item .txt > * {line-height:25px;}
+main #product_list .container .item .txt h2 {}
+main #product_list .container .item .txt h2 .name {}
+main #product_list .container .item .txt h2 .price {}
+main #product_list .container .item .txt .color {margin-top:20px;}
+main #product_list .container .item .txt h2 .color .yellow {}
+main #product_list .container .item .txt h2 .color .pink {}
+main #product_list .container .item .txt h2 .color .black {}
+main #product_list .container .item .txt h2 .color .red {}
+main #product_list .container .item .txt h2 .color .blue {}
+main #product_list .container .item .txt h2 .color .white {}
+main #product_list .container .item .txt h2 .color .gray {}
+main #product_list .container .item .txt h2 .color .brown {}
+main #product_list .container .item .txt h2 .color .lightgray {}
+main #product_list .container .item .txt h2 .color .lime {}
+main #product_list .container .item .txt h2 .color .tomato {}
+main #product_list .container .item .txt h2 .color .gold {}
+main #product_list .container .item .txt h2 .color .darkgray {}
+main #product_list .container .item .txt h2 .color .green {}
+main #product_list .container .item .txt .color span {
+    width:20px; height:20px; display:inline-block; border-radius:50%;
+}
