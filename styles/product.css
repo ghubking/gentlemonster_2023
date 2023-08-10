@@ -53,7 +53,6 @@ main #product_list .container {
     align-items: center;
 }
 main #product_list .container .item {margin-bottom:50px;width:278px; display:flex; flex-flow:column nowrap;}
-main #product_list .container .item1 {}
 main #product_list .container .item .box {
     position:relative;
 }
@@ -63,24 +62,25 @@ main #product_list .container .item .box .like_img {position:absolute; right:20p
 main #product_list .container .item .box .like_img img {width:24px;}
 main #product_list .container .item .txt {}
 main #product_list .container .item .txt > * {line-height:25px;}
-main #product_list .container .item .txt h2 {}
-main #product_list .container .item .txt h2 .name {}
-main #product_list .container .item .txt h2 .price {}
+main #product_list .container .item .txt h2 {font-size: 1.25rem;}
+main #product_list .container .item .txt .name {font-size: 1.25rem;}
+main #product_list .container .item .txt .price {font-size: 1.25rem;}
 main #product_list .container .item .txt .color {margin-top:20px;}
-main #product_list .container .item .txt h2 .color .yellow {}
-main #product_list .container .item .txt h2 .color .pink {}
-main #product_list .container .item .txt h2 .color .black {}
-main #product_list .container .item .txt h2 .color .red {}
-main #product_list .container .item .txt h2 .color .blue {}
-main #product_list .container .item .txt h2 .color .white {}
-main #product_list .container .item .txt h2 .color .gray {}
-main #product_list .container .item .txt h2 .color .brown {}
-main #product_list .container .item .txt h2 .color .lightgray {}
-main #product_list .container .item .txt h2 .color .lime {}
-main #product_list .container .item .txt h2 .color .tomato {}
-main #product_list .container .item .txt h2 .color .gold {}
-main #product_list .container .item .txt h2 .color .darkgray {}
-main #product_list .container .item .txt h2 .color .green {}
+main #product_list .container .item .txt .color .yellow {background: yellow;}
+main #product_list .container .item .txt .color .pink {background: pink;}
+main #product_list .container .item .txt .color .black {background: black;}
+main #product_list .container .item .txt .color .red {background: red;}
+main #product_list .container .item .txt .color .blue {background: blue;}
+main #product_list .container .item .txt .color .white {background: white; border:1px solid #000;}
+main #product_list .container .item .txt .color .gray {background: gray;}
+main #product_list .container .item .txt .color .brown {background: brown;}
+main #product_list .container .item .txt .color .lightgray {background: lightgray;}
+main #product_list .container .item .txt .color .darkgray {background: darkgray;}
+main #product_list .container .item .txt .color .lime {background: lime;}
+main #product_list .container .item .txt .color .tomato {background: tomato;}
+main #product_list .container .item .txt .color .gold {background: gold;}
+main #product_list .container .item .txt .color .green {background: green;}
 main #product_list .container .item .txt .color span {
     width:20px; height:20px; display:inline-block; border-radius:50%;
+    
 }
