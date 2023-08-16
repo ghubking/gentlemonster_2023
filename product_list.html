@@ -12,6 +12,7 @@
 </head>
 <body>
     <!-- header.php -->
+    <?php include('./header.php') ?>
     <main>
         <!-- 1. swiper-slide -->
         <div class="swiper" id="product_slide">
@@ -59,11 +60,11 @@
         <div id="category">
             <a href="#"><img src="./images/glasses_img/category1.png" alt=""><span>전체보기</span></a>
             <a href="#"><img src="./images/glasses_img/category2.png" alt=""><span>베스트셀러</span></a>
-            <a href="#"><img src="/images/glasses_img/category3.png" alt=""><span>블루라이트 차단</span></a>
-            <a href="#"><img src="/images/glasses_img/category4.png" alt=""><span>틴트 렌즈</span></a>
-            <a href="#"><img src="/images/glasses_img/category5.png" alt=""><span>선물 추천</span></a>
-            <a href="#"><img src="/images/glasses_img/category6.png" alt=""><span>사각 프레임</span></a>
-            <a href="#"><img src="/images/glasses_img/category7.png" alt=""><span>원형 프레임</span></a>
+            <a href="#"><img src="./images/glasses_img/category3.png" alt=""><span>블루라이트 차단</span></a>
+            <a href="#"><img src="./images/glasses_img/category4.png" alt=""><span>틴트 렌즈</span></a>
+            <a href="#"><img src="./images/glasses_img/category5.png" alt=""><span>선물 추천</span></a>
+            <a href="#"><img src="./images/glasses_img/category6.png" alt=""><span>사각 프레임</span></a>
+            <a href="#"><img src="./images/glasses_img/category7.png" alt=""><span>원형 프레임</span></a>
         </div>
         <!-- 3. product_list -->
         <div id="product_list">
@@ -186,6 +187,8 @@
         </div>
     </main>
     <!-- footer.php -->
+    <?php include('./footer.php') ?>
+    <script src="./script/common.js"></script>
     <script>
         // 특정 페이지에만 해당하는 JS 동작기능은 내부스트립트로 작성해도 된다.
         // product_slide 기능은 product_list.html 에만 존재한다.(내부)
